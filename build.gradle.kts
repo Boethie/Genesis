@@ -98,7 +98,7 @@ minecraft {
 }
 
 dependencies {
-    minecraft("net.minecraftforge:forge:1.14.3-27.0.50")
+    minecraft("net.minecraftforge:forge:$forgeVersion")
 }
 
 tasks.getByName<Jar>("jar") {
