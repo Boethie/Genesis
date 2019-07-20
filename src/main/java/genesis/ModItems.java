@@ -18,6 +18,7 @@ public class ModItems {
     public static void register(final RegistryEvent.Register<Item> event) {
         event.getRegistry().registerAll(
                 blockItem(ModBlocks.PEGMATITE, ItemGroup.BUILDING_BLOCKS),
+                blockItem(ModBlocks.KOMATIITE, ItemGroup.BUILDING_BLOCKS),
                 new Item(new Item.Properties().group(ItemGroup.MISC)).setRegistryName(location("testitem"))
         );
     }
