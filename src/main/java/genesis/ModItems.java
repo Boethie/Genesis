@@ -19,6 +19,7 @@ public class ModItems {
         event.getRegistry().registerAll(
                 blockItem(ModBlocks.PEGMATITE, ItemGroup.BUILDING_BLOCKS),
                 blockItem(ModBlocks.KOMATIITE, ItemGroup.BUILDING_BLOCKS),
+                blockItem(ModBlocks.GRANODIORITE, ItemGroup.BUILDING_BLOCKS),
                 new Item(new Item.Properties().group(ItemGroup.MISC)).setRegistryName(location("testitem"))
         );
     }

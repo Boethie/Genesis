@@ -1,4 +1,5 @@
 {
     "block.genesis.pegmatite": "Pegmatite",
-    "block.genesis.komatiite": "Komatiite"
+    "block.genesis.komatiite": "Komatiite",
+	"block.genesis.granodiorite": "Granodiorite"
 }
